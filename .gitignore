@@ -14,9 +14,13 @@ dataset/
 *.npy
 *.npz
 
-# Exclude Figures & Legacy Code
-Scripts/figures/
+# Maintenance & Legacy Scripts
 Scripts/legacy/
+Scripts/organize_repo_for_github.py
+organize_repo_for_github.py
+
+# Exclude Figures & Media
+Scripts/figures/
 *.png
 *.jpg
 *.jpeg
