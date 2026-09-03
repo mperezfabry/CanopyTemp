@@ -6,7 +6,7 @@
 
 This repository is the official code accompaniment for the manuscript:
 
-> **"Predicting Maize Yield Reductions from Canopy Temperature Using Machine Learning"** *(Currently under peer review)*.
+> **"Predicting Maize Yield Reductions from Canopy Temperature Using Machine Learning"** *(Currently awaiting submission for peer review - in revision)*.
 
 ---
 
