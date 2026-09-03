@@ -39,8 +39,6 @@ LIRF/
 │   ├── plot_season_simulation_results.py        # 5-panel stage progression plots (Fig 6/7)
 │   ├── plot_season_simulation_residuals.py      # 30-subplot publication residual grid (Fig 8)
 │   ├── generate_shap_feature_importance.py      # SHAP feature importance plot (Fig 9)
-│   ├── run_champion_ensemble_final_v5.py        # Champion stacking ensemble meta-learner
-│   ├── generate_champion_ensemble_figure.py     # Champion ensemble parity plot (Fig 10)
 │   ├── figures/                    # Exported high-resolution publication PNGs
 │   └── legacy/                     # Archival exploratory & diagnostic code
 └── README.md                       # Project documentation
@@ -53,8 +51,8 @@ LIRF/
 Clone the repository and install required dependencies using Python 3.10+ and standard PyTorch stack:
 
 ```bash
-git clone https://github.com/your-org/LIRF-Canopy-Temperature-ML.git
-cd LIRF-Canopy-Temperature-ML
+git clone https://github.com/mperezfabry/CanopyTemp.git
+cd CanopyTemp
 
 # Create conda environment
 conda create -n lirf_env python=3.11 -y
@@ -110,9 +108,8 @@ python3 Scripts/plot_season_simulation_results.py
 # 9. Render 30-subplot publication residual grid across models & metrics (Figure 8)
 python3 Scripts/plot_season_simulation_residuals.py
 
-# 10. Generate SHAP feature importance & Champion Stacking Ensemble figures (Figures 9 & 10)
+# 10. Generate SHAP feature importance plot (Figure 9)
 python3 Scripts/generate_shap_feature_importance.py
-python3 Scripts/generate_champion_ensemble_figure.py
 ```
 
 ---
@@ -130,7 +127,6 @@ python3 Scripts/generate_champion_ensemble_figure.py
 | **Figure 7** | 5-Panel Stage Progression $R^2$ ($V_3 \to R_6$) | `plot_season_simulation_results.py` | `season_simulation_5panel_yield_r2.png` |
 | **Figure 8** | 30-Subplot Publication Residual Grid | `plot_season_simulation_residuals.py` | `season_simulation_loyo_residuals_all_years.png` |
 | **Figure 9** | SHAP Feature Importance Summary | `generate_shap_feature_importance.py` | `shap_feature_importance_summary.png` |
-| **Figure 10** | Champion Stacking Ensemble Weights & Parity | `generate_champion_ensemble_figure.py` | `champion_stacking_ensemble_figure.png` |
 
 ---
 
