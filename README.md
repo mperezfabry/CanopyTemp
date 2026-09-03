@@ -6,11 +6,11 @@
 
 This repository is the official code accompaniment for the manuscript:
 
-> **"Multi-Modal Thermal Stress & Microclimate Machine Learning for Season-Long Yield Deficit Simulation in Maize"** *(Currently under peer review)*.
+> **"Predicting Maize Yield Reductions from Canopy Temperature Using Machine Learning"** *(Currently under peer review)*.
 
 ---
 
-## 📢 Data Availability Statement
+## Data Availability Statement
 
 > **Note:** The underlying high-resolution microclimate, infrared canopy temperature (IRT), soil water content, and crop yield datasets spanning 16 experimental field seasons are **not yet publicly included in this preliminary repository**.
 >
@@ -18,7 +18,7 @@ This repository is the official code accompaniment for the manuscript:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 LIRF/
@@ -46,7 +46,7 @@ LIRF/
 
 ---
 
-## 💻 Environment Setup & Installation
+## Environment Setup & Installation
 
 Clone the repository and install required dependencies using Python 3.10+ and standard PyTorch stack:
 
@@ -64,7 +64,7 @@ pip install numpy pandas scikit-learn pytorch torchvision matplotlib seaborn sha
 
 ---
 
-## 🚀 Execution & Pipeline Guide
+## Execution & Pipeline Guide
 
 Once dataset files are placed into the `/dataset/` directory, execute the full end-to-end analytical pipeline to reproduce all manuscript tables, ML model cross-validations, and figures:
 
