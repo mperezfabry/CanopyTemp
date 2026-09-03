@@ -1,0 +1,34 @@
+# Byte-compiled / Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data files (Excluded until AgriCommons release)
+dataset/
+*.parquet
+*.csv
+*.feather
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# Exclude Figures & Legacy Code
+Scripts/figures/
+Scripts/legacy/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Environments & IDEs
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+.DS_Store
